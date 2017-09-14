@@ -8,17 +8,17 @@ To use this demo project, follow these steps to setup your local dev enviroment:
 
 1) install node.js (https://nodejs.org/en/) -- skip this step if it's already installed;  
 2) install ionic, type in this command:  
-	npm install -g cordova ionic  
+	*npm install -g cordova ionic*  
 3) to create an ionic project, find the proper directory and type in this command (in this case, the project name is 'my-sbanking-ionic')  
-	ionic start my-sbanking-ionic tabs
+	*ionic start my-sbanking-ionic tabs*
 4) Copy the source code / resources files into this folder (my-sbanking-ionic) accordingly;
 5) launch this app by these commands:  
-	cd my-sbanking-ionic  
-	ionic serve  
-	--------------------------------------------------------------------------------------------  
+	*cd my-sbanking-ionic*  
+	*ionic serve*  
+ 
 	The app would be launched on http://localhost:8100/  
 	
-* Also reference to [Starter App Base](https://github.com/ionic-team/ionic2-app-base). *
+* Also reference to [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
 
 6) deploy / run @ devices:
 
