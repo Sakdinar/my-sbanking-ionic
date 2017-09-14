@@ -1,26 +1,42 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+This is a demo mobile banking project using Angular 4 and [Ionic](http://ionicframework.com/docs/) to show a basic mobile banking process (login screen --> account summary page with mock data)
 
-## How to use this template
+## How to use this Demo project
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+*This project does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
+To use this demo project, follow these steps to setup your local dev enviroment:
 
-### With the Ionic CLI:
+1) install node.js (https://nodejs.org/en/) -- skip this step if it's already installed;
+2) install ionic, type in this command:
+	npm install -g cordova ionic
+3) to create an ionic project, find the proper directory and type in this command (in this case, the project name is 'my-sbanking-ionic')
+	ionic start my-sbanking-ionic tabs
+4) Copy the source code / resources files into this folder (my-sbanking-ionic) accordingly;
+5) launch this app by these commands:
+	cd my-sbanking-ionic
+	ionic serve
+	--------------------------------------------------------------------------------------------
+	The app would be launched on http://localhost:8100/
+	
+* Also reference to [Starter App Base](https://github.com/ionic-team/ionic2-app-base). *
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
+6) deploy / run @ devices:
 
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myTabs tabs
-```
+After testing the app on the web browser, to deploy it to the device:
 
-Then, to run it, cd into `myTabs` and run:
+6.1) Android: run this command:
 
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
-```
+	***	cordova platform add android
+	
+	Build the APK file using Android studio; the project path would look like this:
+	
+		~\my-sbanking-ionic\platforms\android
 
-Substitute ios for android if not on a Mac.
+6.2) iOS: run this command:
+
+	***	cordova platform add ios
+	
+	Run it for iphone simulator using xcode @ Mac; the project path would look like this:
+	
+		~/my-sbanking-ionic/platforms/ios
 
